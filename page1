@@ -1,0 +1,15 @@
+---
+layout: post
+title: "testing"
+description: "hello?"
+category: "Test"
+tags: ["Test", "Test post"]
+---
+{% include JB/setup %}
+
+Hello!
+
+
+{% highlight bash %} rake post title="title" {% endhighlight %}
+
+in the working directory of the site.
